@@ -9,7 +9,7 @@
       <form action="">
         <label class="block">
           
-          <select class="form-select block w-full mt-1">
+          <select class="form-select block w-full mt-1 border border-gray-300 text-gray-900 text-sm rounded-lg">
             <option>Player 1</option>
             <option>Player 2</option>
             <option>Player 3</option>
@@ -20,7 +20,7 @@
       <form action="" class="ml-3">
         <label class="block">
           
-          <select class="form-select block w-full mt-1">
+          <select class="form-select block w-full mt-1 border border-gray-300 text-gray-900 text-sm rounded-lg">
             <option>Player 2</option>
             <option>Player 3</option>
             <option>Player 4</option>

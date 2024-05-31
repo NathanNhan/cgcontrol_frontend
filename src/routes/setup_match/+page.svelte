@@ -6,6 +6,6 @@
 
 <div class="grid md:grid-cols-2 gap-6 sm:grid-cols-12">
 
-<FormSetup />
-<FormSetup />
+<FormSetup type="home" />
+<FormSetup type="away"/>
 </div>

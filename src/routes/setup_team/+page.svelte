@@ -11,11 +11,6 @@
         >
           Danh sách cầu thủ
         </h5>
-        <p
-          class="block mt-1 font-sans text-base antialiased font-normal leading-relaxed text-gray-700"
-        >
-          Xem danh sách tất cả cầu thủ của 2 đội
-        </p>
       </div>
       <div class="flex flex-col gap-2 shrink-0 sm:flex-row">
         <button
@@ -35,7 +30,9 @@
             >
             </path>
           </svg>
-          <a href="/setup_team/create_player" class="hover:no-underline">Thêm mới cầu thủ</a>
+          <a href="/setup_team/create_player" class="hover:no-underline"
+            >Thêm mới cầu thủ</a
+          >
         </button>
 
         <button
@@ -55,13 +52,14 @@
             >
             </path>
           </svg>
-          <a href="/setup_team/create_team" class="hover:no-underline">Tạo đội mới</a>
-          
+          <a href="/setup_team/create_team" class="hover:no-underline"
+            >Tạo đội mới</a
+          >
         </button>
       </div>
     </div>
     <div class="flex flex-col items-center justify-between gap-4 md:flex-row">
-      <div class="block w-full overflow-hidden md:w-max">
+      <div class="block w-full overflow-hidden ">
         <nav>
           <ul
             role="tablist"
@@ -77,12 +75,10 @@
               </li> -->
             <li
               role="tab"
-              class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
+              class="relative flex items-center justify-center w-full h-full  py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
               data-value="monitored"
             >
-              <div class="z-20">
-                &nbsp;&nbsp;Hà Nội (HNFC)&nbsp;
-              </div>
+              <div class="z-20">&nbsp;&nbsp;Hà Nội (HNFC)&nbsp;</div>
               <div
                 class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
               ></div>
@@ -92,73 +88,52 @@
               class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
               data-value="unmonitored"
             >
-              <div class="z-20">
-                &nbsp;&nbsp;Thép mới (TMFC)&nbsp;&nbsp;
-              </div>
+              <div class="z-20">&nbsp;&nbsp;Thép mới (TMFC)&nbsp;&nbsp;</div>
               <div
                 class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
               ></div>
             </li>
             <li
-            role="tab"
-            class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
-            data-value="unmonitored"
-          >
-            <div class="z-20">
-              &nbsp;&nbsp;Ra sân&nbsp;&nbsp;
-            </div>
-            <div
-              class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
-            ></div>
-          </li>
-          <li
-          role="tab"
-          class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
-          data-value="unmonitored"
-        >
-          <div class="z-20">
-            &nbsp;&nbsp;Dự bị&nbsp;&nbsp;
-          </div>
-          <div
-            class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
-          ></div>
-        </li>
-        <li
-        role="tab"
-        class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
-        data-value="unmonitored"
-      >
-        <div class="z-20">
-          &nbsp;&nbsp;Out&nbsp;&nbsp;
-        </div>
-        <div
-          class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
-        ></div>
-      </li>
-      <li
-      role="tab"
-      class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
-      data-value="unmonitored"
-    >
-      <div class="z-20">
-        &nbsp;&nbsp;Reset đội hình&nbsp;&nbsp;
-      </div>
-      <div
-        class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
-      ></div>
-    </li>
-    <li
-    role="tab"
-    class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
-    data-value="unmonitored"
-  >
-    <div class="z-20">
-      &nbsp;&nbsp;Update STT&nbsp;&nbsp;
-    </div>
-    <div
-      class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
-    ></div>
-  </li>
+              role="tab"
+              class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
+              data-value="unmonitored"
+            >
+              <div class="z-20">&nbsp;&nbsp;Ra sân&nbsp;&nbsp;</div>
+              <div
+                class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
+              ></div>
+            </li>
+            <li
+              role="tab"
+              class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
+              data-value="unmonitored"
+            >
+              <div class="z-20">&nbsp;&nbsp;Dự bị&nbsp;&nbsp;</div>
+              <div
+                class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
+              ></div>
+            </li>
+            <li
+              role="tab"
+              class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
+              data-value="unmonitored"
+            >
+              <div class="z-20">&nbsp;&nbsp;Out&nbsp;&nbsp;</div>
+              <div
+                class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
+              ></div>
+            </li>
+            <li
+              role="tab"
+              class="relative flex items-center justify-center w-full h-full px-2 py-1 font-sans text-base antialiased font-normal leading-relaxed text-center bg-transparent cursor-pointer select-none text-blue-gray-900"
+              data-value="unmonitored"
+            >
+              <div class="z-20">&nbsp;&nbsp;Reset đội hình&nbsp;&nbsp;</div>
+              <div
+                class="absolute inset-0 z-10 h-full bg-white rounded-md shadow"
+              ></div>
+            </li>
+            
           </ul>
         </nav>
       </div>
@@ -193,21 +168,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               STT
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
           <th
@@ -217,21 +177,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Name
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
           <th
@@ -241,21 +186,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Số áo
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
           <th
@@ -265,21 +195,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Tên áo
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
 
@@ -290,21 +205,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Play
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
 
@@ -315,21 +215,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Pos
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
 
@@ -340,21 +225,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Image 1
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
 
@@ -365,21 +235,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Image 2
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
 
@@ -390,21 +245,6 @@
               class="flex items-center justify-between gap-2 font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70"
             >
               Action
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                class="w-4 h-4"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
-                ></path>
-              </svg>
             </p>
           </th>
         </tr>
@@ -479,12 +319,21 @@
             <p
               class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
             >
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Edit
-            </button>
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Delete
-            </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Edit
+              </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Delete
+              </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Update STT
+              </button>
             </p>
           </td>
         </tr>
@@ -559,12 +408,21 @@
             <p
               class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
             >
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Edit
-            </button>
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Delete
-            </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Edit
+              </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Delete
+              </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Update STT
+              </button>
             </p>
           </td>
         </tr>
@@ -638,12 +496,22 @@
             <p
               class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900"
             >
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Edit
-            </button>
-            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Delete
-            </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Edit
+              </button>
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Delete
+              </button>
+
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                Update STT
+              </button>
             </p>
           </td>
         </tr>

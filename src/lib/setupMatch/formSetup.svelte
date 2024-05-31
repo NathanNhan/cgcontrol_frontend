@@ -1,5 +1,13 @@
+<script>
+  export let type = "";
+</script>
+   
 
-    <div>
+
+
+
+<div class="bg-white p-8 rounded">
+  <h2 class="text-xl font-bold dark:text-white pb-5 capitalize text-center">{type}</h2>
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
@@ -118,7 +126,7 @@
               >
                 GK_Color
               </label>
-              <input type="color" class="p-1 h-10 w-14 block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700" id="hs-color-input" value="#FF0000" title="Choose your color">
+              <input type="color" class="p-1 h-10 w-14 block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700" id="hs-color-input" value={type == "home" ? "#0000FF" :"#FF0000"} title="Choose your color">
             </div>
   
             <div class="w-full px-3">
@@ -128,7 +136,7 @@
               >
                 Player_Color
               </label>
-              <input type="color" class="p-1 h-10 w-14 block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700" id="hs-color-input" value="#FF0000" title="Choose your color">
+              <input type="color" class="p-1 h-10 w-14 block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700" id="hs-color-input" value={type == "home" ? "#0000FF" :"#FF0000"} title="Choose your color">
             </div>
           </div>
         </div>
